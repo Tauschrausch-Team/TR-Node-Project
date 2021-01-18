@@ -1,0 +1,22 @@
+doctype html
+html(lang='en')
+  head
+    title #{title}
+    link(rel='stylesheet', href='style2.css')
+  body
+    h1 Katalog
+       section(id='katalog')
+          div
+            form 
+            label(for='sql_query') SQL-Code fuer Abfrage
+            input(id='sql_query', name='sql_query', maxlength='100')
+            button(type='submit', name='action') Senden!
+          div
+            p Ergebnisse fuer: #{tabelle}
+                // wenn nichts eingegeben wurde, dann wird die gesamte Tabelle angezeigt (Methode database_query() aus Katalog.js)
+            case sql_request
+                when ""
+                    p database_query(select (*) from artikel)
+                default
+                    p database_query(select sql-request from artikel)    
+                        // oder doch #{sql-request} ???

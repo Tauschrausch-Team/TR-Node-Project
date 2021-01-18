@@ -1,0 +1,34 @@
+body {
+    background-image: url("images/Website-Background-Images.jpg");
+    background-color: lightgreen;
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkorange;
+}
+
+a, p {
+    text-align: left;
+    color: lightsalmon;
+}
+
+input[type=text] {
+    width: 10%;
+    padding: 4px 10px;
+    margin: 8px 0;
+    border: 2px solid lightsalmon;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+input[type=text]:focus {
+    background-color: lightsalmon;
+}
+input[type=button], input[type=submit] {
+    width: 10%;
+    padding: 4px 10px;
+    margin: 12px 0;
+    border: 2px solid salmon;
+    box-sizing: border-box;
+    border-radius: 4px;
+}

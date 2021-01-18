@@ -1,0 +1,12 @@
+C:\Users\coolj\Desktop\Old Desktop\Node.js\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsprojAssemblyReference.cache
+C:\Users\coolj\Desktop\Old Desktop\Node.js\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsproj.CoreCompileInputs.cache
+C:\Users\coolj\Desktop\Old Desktop\Node.js\Nodejs WebApp1\Nodejs WebApp1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\NichtDieser Dude\Desktop\Schule\Informatik\Nodejs WebApp1\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsprojAssemblyReference.cache
+C:\Users\NichtDieser Dude\Desktop\Schule\Informatik\Nodejs WebApp1\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsproj.CoreCompileInputs.cache
+C:\Users\NichtDieser Dude\Desktop\Schule\Informatik\Nodejs WebApp1\Nodejs WebApp1\Nodejs WebApp1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Dude\Desktop\Schule\Informatik\Nodejs WebApp1\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsprojAssemblyReference.cache
+C:\Users\Dude\Desktop\Schule\Informatik\Nodejs WebApp1\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsproj.CoreCompileInputs.cache
+C:\Users\Dude\Desktop\Schule\Informatik\Nodejs WebApp1\Nodejs WebApp1\Nodejs WebApp1\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\Dude\Desktop\Schule\Informatik\WebApp Christian\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsprojAssemblyReference.cache
+C:\Users\Dude\Desktop\Schule\Informatik\WebApp Christian\Nodejs WebApp1\Nodejs WebApp1\obj\Debug\Nodejs WebApp1.njsproj.CoreCompileInputs.cache
+C:\Users\Dude\Desktop\Schule\Informatik\WebApp Christian\Nodejs WebApp1\Nodejs WebApp1\bin\Microsoft.NodejsTools.WebRole.dll

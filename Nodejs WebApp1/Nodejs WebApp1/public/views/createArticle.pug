@@ -1,0 +1,12 @@
+extends base.pug
+
+block content
+    h1 Bitte gebe die benötigten Daten ein:
+    br
+
+    form(action="/action_page.php")
+        label(for="img") Wähle Artikelfoto
+        input(type="file", id="img", name="image", accept="image/*")
+        input(type="submit", name="submit")
+
+        
