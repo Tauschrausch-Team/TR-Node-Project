@@ -18,7 +18,7 @@ const dns = require('dns').lookup(require('os').hostname(), function (err, add, 
 
 // Init App
 const app = express();
-const port = process.env.PORT || 1337; // ! change port, when Error occurred (process.env.PORT -> choose enviromental standart port)
+const port = process.env.PORT || 8000; // ! change port, when Error occurred (process.env.PORT -> choose enviromental standart port)
 
 // Load View Engine
 app.set("views", path.join(__dirname, 'public/views')); //source for Pug templates
