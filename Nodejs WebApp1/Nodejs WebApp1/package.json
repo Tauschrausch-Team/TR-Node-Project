@@ -2,7 +2,7 @@
   "name": "nodejs-web-app1",
   "version": "0.0.0",
   "description": "Nodejs WebApp1",
-  "main": "app.js",
+  "main": "server.js",
   "author": {
     "name": ""
   }
