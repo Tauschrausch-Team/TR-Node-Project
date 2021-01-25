@@ -1,10 +1,12 @@
 // Tauschrausch-Server with Express (serverseitiges Webframework -> Erweiterung fuer Webanwendungen)
 // you can install nodemon to prevent alsways restarting the server for changes (npm install nodemon) 
+// link for xamp enviroment (a database sql enviroment): http://localhost/phpmyadmin/
 
 // added modules for methods,(express, pug, mysql, detenv need to be installed via: 'npm install moduleName' in Win10 console)!
 const path = require('path'),
     bodyParser = require('body-parser'),
     express = require('express'), // need to be installed!
+    mysql = require('mysql'),
     // add Modules from './public/module'
     anotherScript = require('./public/module/classesScript.js'),
     templatingModule = require('./public/module/templating.js'),
@@ -19,6 +21,21 @@ const dns = require('dns').lookup(require('os').hostname(), function (err, add, 
 // Init App
 const app = express();
 const port = process.env.PORT || 8000; // ! change port, when Error occurred (process.env.PORT -> choose enviromental standart port)
+
+// define connection to database
+const db = mysql.createConnection({
+    host: 'localhost', // ip-Adress of the server
+    user: 'root',
+    password: '',
+    database: 'tauschrausch-database' // name of the database
+});
+db.connect( (err) => {
+    if(err){
+        console.log(err);
+    } else {
+        console.log("MYSQL connected...");
+    };
+});
 
 // Load View Engine
 app.set("views", path.join(__dirname, 'public/views')); //source for Pug templates
