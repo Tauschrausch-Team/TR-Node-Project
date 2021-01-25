@@ -1,6 +1,5 @@
-// Tauschrausch-Server with Express (serverseitiges Webframework -> Erweiterung f�r Webanwendungen)
-// you can install nodemon to prevent alsways restarting the server for changes (npm install nodemon)
-// change
+// Tauschrausch-Server with Express (serverseitiges Webframework -> Erweiterung fuer Webanwendungen)
+// you can install nodemon to prevent alsways restarting the server for changes (npm install nodemon) 
 
 // added modules for methods,(express and pug need to be installes via: 'npm install moduleName' in Win10 console)!
 const path = require('path'),
@@ -28,9 +27,6 @@ app.use(express.static(path.join(__dirname, 'public'))); // directory to serve s
 
 app.use(bodyParser.urlencoded({ extended: false })); // encode special letters properly (like %,$, ...)
 app.use(bodyParser.json());
-
-//anotherScript.data.currentDate();
-//anotherScript.data.addUser('Quosh', 'User', 'Password');
 
 // Home Route
 app.get("/", function (req, res) {
