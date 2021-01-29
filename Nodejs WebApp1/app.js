@@ -151,7 +151,7 @@ app.get("/katalog", function (req, res) {
 });
 
 
-// use queryparams for navigating in "katalog" - not implemented yet
+// use queryparams for navigating in "katalog, etc." - not implemented yet
 // app.get('/articles/:articleID', function(req, res, next) {
 //     var articleID = req.params.articleID;
 //     Product.find({title: article.name}, function (err, article) {
